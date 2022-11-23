@@ -39,7 +39,7 @@
           <div class="info">
             <p class="title">
               {{ movie.title.slice(0, 25)
-              }}<span v-if="movie.title.length > 25">...</span>
+              }}<span v-if="movie?.title.length > 25">...</span>
             </p>
             <p class="release">
               Released:
